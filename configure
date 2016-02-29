@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# cleanup build dir if exist
+rm -rf build
+mkdir  build && 
+
+# create Unix Makefiles project
+cd build && cmake ..
+
